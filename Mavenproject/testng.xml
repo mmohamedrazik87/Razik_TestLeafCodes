@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test-seq">
+    <classes>
+   	 <class name="testNG.CreateLead"/>
+      <class name="testNG.MergeLead"/>
+      <class name="testNG.DuplicateLead"/>
+      <class name="testNG.EditLead"/>      
+      <class name="testNG.DeleteLead"/>
+    </classes>
+  </test> <!-- Test-seq -->
+</suite> <!-- Suite -->
